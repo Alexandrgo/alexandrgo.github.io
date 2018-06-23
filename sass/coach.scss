@@ -1,0 +1,31 @@
+.coach{
+ text-align: center;
+ padding-top: 65px;
+ padding-bottom: 85px;
+ &__wrap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+    margin-top: 80px;
+ }
+ &__text-wrap{
+  width: 36%;
+  text-align: left;
+ }
+ &__subtitle{
+  font-family: 'Montserrat SemiBold';
+  font-size: 23px;
+  line-height: 40px;
+  margin-bottom: 30px;
+ }
+ &__text{
+  font-size: 18px;
+  line-height: 35px;
+ }
+ &__btn{
+  margin-top: 24px;
+  padding: 14px 26px;
+
+ }
+}

@@ -1,0 +1,27 @@
+.footer__nav{
+  min-height: 100px;
+  box-sizing: border-box;
+  align-items: center;
+  font-size: 14px;
+}
+.footer__nav nav{
+  padding: 0;
+}
+.footer__logo{
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.footer__btn{
+  font-family: 'Montserrat SemiBold';
+  border-color: transparent;
+  border-radius: 30px;
+  &-wrap{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.footer__list{
+  width: 100%;
+  justify-content: space-around;
+}

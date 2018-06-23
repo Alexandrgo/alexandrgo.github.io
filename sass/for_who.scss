@@ -1,0 +1,48 @@
+.for_who{
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 60px;
+  &__title{
+    margin-top: 75px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    position: relative;
+    &:after{
+      content: "";
+      display: block;
+      width: 160px;
+      height: 5px;
+      position: absolute;
+      color: #66ccff;
+      background-color: #66ccff;
+      bottom:0; left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+  &__item{
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 90px;
+  }
+  &__wrap{
+    width: 50%;
+  }
+}
+.for_who__item img{
+  box-shadow: 0px 0px 29px 0px rgba(102, 204, 255, 0.78);
+  border-radius: 50%;
+}
+.for_who__wrap h3{
+  font-size: 18px;
+  font-family: 'Montserrat SemiBold';
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+
+.for_who__wrap p {
+  font-size: 19px;
+  line-height: 30px;
+}

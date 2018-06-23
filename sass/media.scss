@@ -1,0 +1,232 @@
+
+@media only screen and (max-width : 991px){
+.header__nav{
+  text-align: center;
+  align-items: flex-start;
+  margin-top: 35px;
+}
+.header__btn-wrap{
+  align-items: flex-start;
+}
+.header__list{
+    background-color: #fff;
+}
+.header__content{
+  margin-top: 20%;
+}
+
+
+.info{
+  text-align: center;
+}
+
+
+.faculty__item{
+  min-height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+
+.for_who__item{
+  width: 90%;
+}
+.coach__wrap{
+  margin-top: 40px;
+}
+.coach__wrap img{
+  width: 50%;
+}
+.coach__text-wrap{
+  width: 45%;
+}
+.coach__subtitle{
+  margin-bottom: 15px;
+}
+
+.result__text{
+  margin-bottom: 10px;
+}
+.result__title{
+  margin-bottom: 15px;
+}
+
+.footer__navbar{
+  flex-direction: row;
+}
+.footer__list{
+  flex-direction: row;
+  align-items: center;
+}
+}
+
+
+@media only screen and (max-width : 767px){
+  h2{
+    font-size: 24px;
+  }
+  .header__nav{
+    margin-top: 60px;
+  }
+.main-header:before {
+  height: 130px;
+}
+.header__btn-wrap{
+  position: absolute;
+  top: -35px;
+}
+.header__btn{
+  margin: 0 auto;
+}
+.header__content-title{
+  margin-bottom: 20px;
+}
+.header__content-text{
+  margin-bottom: 20px;
+}
+
+
+.info__title{
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.info__descript{
+  padding-bottom: 20px;
+}
+.info__text-top{
+  margin-bottom: 15px;
+}
+.info__btn{
+  margin-top: 20px;
+}
+
+
+.for_who__item{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.for_who__wrap h3{
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+.for_who__wrap p{
+  line-height: 25px;
+  font-size: 17px;
+}
+.coach__wrap{
+  flex-direction: column;
+}
+.coach__text-wrap{
+  margin-top: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.coach__subtitle{
+  margin-bottom: 7px;
+}
+
+.result iframe{
+  width: 100%;
+}
+.result__text{
+  width: 100%;
+
+}
+
+.footer__btn-wrap{
+  justify-content: center;
+}
+.container-big{
+  width: auto;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 498px){
+.header__content-title{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.header__content-text{
+  font-size: 18px;
+}
+.header__content-link{
+  font-size: 18px;
+  padding: 10px 50px;
+}
+
+.info iframe{
+  width: 100%;
+}
+.info__descript{
+  padding-bottom: 20px;
+  display: none;
+}
+
+.faculty__item{
+  width: 90%;
+  padding-top: 20px;
+}
+.faculty__title{
+  width: 50%;
+}
+.faculty__item-title{
+  margin-bottom: 20px;
+}
+.for_who{
+  margin-bottom: 20px;
+}
+
+.for_who__title{
+  margin-top: 40px;
+}
+.for_who__item{
+flex-direction: column;
+}
+
+.for_who__item img{
+  margin-bottom: 10px;
+}
+.for_who__wrap{
+  width: 80%;
+}
+.coach__text-wrap{
+  width: 100%;
+}
+
+.advantages__item{
+  padding-right: 5px;
+  padding-left: 50px;
+}
+
+.info__btn{
+  padding: 13px 20px;
+  font-size: 14px;
+}
+
+.result__btn{
+    padding: 13px 60px;
+}
+
+.footer__navbar,
+.footer__list{
+  flex-direction: column;
+}
+.footer__logo{
+  margin-right: 0;
+}
+}
+
+
+
+//  /* Custom, iPhone Retina */
+// @media only screen and (max-width : 320px){
+
+// }
+
+

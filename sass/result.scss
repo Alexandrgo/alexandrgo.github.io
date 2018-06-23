@@ -1,0 +1,18 @@
+.result{
+  background: url(../img/sixsth_screen.jpg) no-repeat top center;
+  text-align: center;
+  padding-top: 25px;
+  &__title{
+    margin-bottom: 30px;
+  }
+  &__text{
+    font-family: 'Montserrat SemiBold';
+    line-height: 30px;
+        margin-bottom: 35px;
+  }
+  &__btn{
+    margin-top: 25px;
+    padding: 13px 62px;
+    margin-bottom: 10px;
+  }
+}

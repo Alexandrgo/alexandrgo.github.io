@@ -1,0 +1,23 @@
+// /* /Добавить миксины для схожих стилей постов/ */
+
+
+body{
+  min-width: 320px!important;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+$accent: #0066cc;
+
+h2{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Montserrat SemiBold';
+  text-transform: uppercase;
+}

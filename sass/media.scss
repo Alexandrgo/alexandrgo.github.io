@@ -81,6 +81,7 @@
 .footer__list{
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 }
 
@@ -149,6 +150,15 @@
 }
 .container-big{
   width: auto;
+}
+.footer__navbar{
+  flex-direction: column;
+}
+.footer__list{
+  flex-direction: column-reverse;;
+}
+.footer__logo{
+  margin: 0;
 }
 }
 /* Extra Small Devices, Phones */
@@ -221,10 +231,7 @@ flex-direction: column;
     padding: 13px 60px;
 }
 
-.footer__navbar,
-.footer__list{
-  flex-direction: column;
-}
+
 .footer__logo{
   margin-right: 0;
 }

@@ -16,12 +16,11 @@
   font-family: 'Montserrat SemiBold';
   border-color: transparent;
   border-radius: 30px;
-  &-wrap{
-    display: flex;
-    justify-content: flex-end;
-  }
 }
 .footer__list{
   width: 100%;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+.nav-item:last-child{
+  margin-left: auto;
 }

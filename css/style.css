@@ -472,18 +472,15 @@ h2 {
   font-family: 'Montserrat SemiBold';
   border-color: transparent;
   border-radius: 30px; }
-  .footer__btn-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end; }
 
 .footer__list {
   width: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.nav-item:last-child {
+  margin-left: auto; }
 
 @media only screen and (max-width: 991px) {
   .header__nav {
@@ -554,7 +551,10 @@ h2 {
             flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
 
 @media only screen and (max-width: 767px) {
   h2 {
@@ -597,7 +597,19 @@ h2 {
         -ms-flex-pack: center;
             justify-content: center; }
   .container-big {
-    width: auto; } }
+    width: auto; }
+  .footer__navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .footer__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+  .footer__logo {
+    margin: 0; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 498px) {
@@ -646,11 +658,5 @@ h2 {
     background: rgba(191, 246, 245, 0.19); }
   .result__btn {
     padding: 13px 60px; }
-  .footer__navbar,
-  .footer__list {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
   .footer__logo {
     margin-right: 0; } }

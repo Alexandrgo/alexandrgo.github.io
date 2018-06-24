@@ -83,8 +83,7 @@ h2 {
   margin: 0 2.5%; }
 
 .nav-item:last-child {
-  margin-left: 10%;
-  margin-right: 0; }
+  margin-left: auto; }
 
 .header__logo {
   font-size: 15px;

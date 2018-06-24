@@ -559,15 +559,6 @@ h2 {
 @media only screen and (max-width: 767px) {
   h2 {
     font-size: 24px; }
-  .header__nav {
-    margin-top: 60px; }
-  .main-header:before {
-    height: 130px; }
-  .header__btn-wrap {
-    position: absolute;
-    top: -35px; }
-  .header__btn {
-    margin: 0 auto; }
   .header__content-title {
     margin-bottom: 20px; }
   .header__content-text {

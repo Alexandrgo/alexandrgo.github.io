@@ -27,7 +27,14 @@
 }
 .header__list{
   width: 100%;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+.nav-item{
+margin: 0 2.5%;
+}
+.nav-item:last-child{
+  margin-left: 10%;
+  margin-right: 0;
 }
 
 .header__logo{
@@ -51,7 +58,7 @@
 }
 
 .header__content{
-  margin-top: 150px;
+  margin-top: 15vh;
   font-family: 'Montserrat SemiBold';
   &-title{
     margin-bottom: 40px;

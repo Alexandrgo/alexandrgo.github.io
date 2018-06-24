@@ -3,18 +3,20 @@
 .header__nav{
   text-align: center;
   align-items: flex-start;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 .header__btn-wrap{
   align-items: flex-start;
 }
 .header__list{
     background-color: #fff;
+    flex-direction: column-reverse;
 }
-.header__content{
-  margin-top: 100px;
+.nav-item,
+.nav-item:last-child{
+  margin: 0;
+  padding: 3px 0;
 }
-
 
 .info{
   text-align: center;
@@ -92,9 +94,6 @@
   }
 .main-header:before {
   height: 130px;
-}
-.header__content{
-  margin-top: 50px;
 }
 .header__btn-wrap{
   position: absolute;

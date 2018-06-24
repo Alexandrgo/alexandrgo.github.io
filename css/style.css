@@ -75,8 +75,16 @@ h2 {
 
 .header__list {
   width: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.nav-item {
+  margin: 0 2.5%; }
+
+.nav-item:last-child {
+  margin-left: 10%;
+  margin-right: 0; }
 
 .header__logo {
   font-size: 15px;
@@ -100,7 +108,7 @@ h2 {
             justify-content: flex-end; }
 
 .header__content {
-  margin-top: 150px;
+  margin-top: 15vh;
   font-family: 'Montserrat SemiBold'; }
   .header__content-title {
     margin-bottom: 40px;
@@ -484,15 +492,21 @@ h2 {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    margin-top: 35px; }
+    margin-top: 25px; }
   .header__btn-wrap {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
   .header__list {
-    background-color: #fff; }
-  .header__content {
-    margin-top: 100px; }
+    background-color: #fff;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+  .nav-item,
+  .nav-item:last-child {
+    margin: 0;
+    padding: 3px 0; }
   .info {
     text-align: center; }
   .faculty,
@@ -550,8 +564,6 @@ h2 {
     margin-top: 60px; }
   .main-header:before {
     height: 130px; }
-  .header__content {
-    margin-top: 50px; }
   .header__btn-wrap {
     position: absolute;
     top: -35px; }

@@ -31,7 +31,7 @@
   unicode-range: U+0020-2044; }
 
 body {
-  min-width: 320px !important;
+  min-width: 320px;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif; }
 
@@ -100,7 +100,7 @@ h2 {
             justify-content: flex-end; }
 
 .header__content {
-  margin-top: 20%;
+  margin-top: 150px;
   font-family: 'Montserrat SemiBold'; }
   .header__content-title {
     margin-bottom: 40px;
@@ -326,8 +326,10 @@ h2 {
   position: absolute;
   color: #3366cc;
   top: 0;
-  left: 35px;
-  line-height: 55px; }
+  left: 20px;
+  line-height: 55px;
+  width: 44px;
+  text-align: right; }
 
 .advantages__row .col-lg-4:nth-child(3):before {
   content: "2";
@@ -338,7 +340,9 @@ h2 {
   color: #3366cc;
   top: 0;
   left: 20px;
-  line-height: 55px; }
+  line-height: 55px;
+  width: 44px;
+  text-align: right; }
 
 .advantages__row .col-lg-4:nth-child(4):before {
   content: "3";
@@ -349,7 +353,9 @@ h2 {
   color: #3366cc;
   top: 0;
   left: 20px;
-  line-height: 55px; }
+  line-height: 55px;
+  width: 44px;
+  text-align: right; }
 
 .advantages__row .col-lg-4:nth-child(5):before {
   content: "4";
@@ -360,7 +366,9 @@ h2 {
   color: #3366cc;
   top: 0;
   left: 20px;
-  line-height: 55px; }
+  line-height: 55px;
+  width: 44px;
+  text-align: right; }
 
 .advantages__row .col-lg-4:nth-child(6):before {
   content: "5";
@@ -371,7 +379,9 @@ h2 {
   color: #3366cc;
   top: 0;
   left: 20px;
-  line-height: 55px; }
+  line-height: 55px;
+  width: 44px;
+  text-align: right; }
 
 .advantages__row .col-lg-4:nth-child(7):before {
   content: "6";
@@ -382,7 +392,9 @@ h2 {
   color: #3366cc;
   top: 0;
   left: 20px;
-  line-height: 55px; }
+  line-height: 55px;
+  width: 44px;
+  text-align: right; }
 
 .advantages button {
   margin-top: 0; }
@@ -480,9 +492,12 @@ h2 {
   .header__list {
     background-color: #fff; }
   .header__content {
-    margin-top: 20%; }
+    margin-top: 100px; }
   .info {
     text-align: center; }
+  .faculty,
+  .advantages {
+    background: rgba(191, 246, 245, 0.19); }
   .faculty__item {
     min-height: 300px;
     width: 80%;
@@ -490,8 +505,18 @@ h2 {
     margin-bottom: 30px;
     padding-bottom: 15px;
     padding-right: 15px; }
+  .info__text-top {
+    margin-top: 30px;
+    margin-bottom: 16px; }
+  .info__descript {
+    padding-bottom: 20px;
+    margin-bottom: 0; }
+  .faculty__title {
+    margin-bottom: 40px; }
   .for_who__item {
     width: 90%; }
+  .arrow {
+    display: none; }
   .coach__wrap {
     margin-top: 40px; }
   .coach__wrap img {
@@ -525,6 +550,8 @@ h2 {
     margin-top: 60px; }
   .main-header:before {
     height: 130px; }
+  .header__content {
+    margin-top: 50px; }
   .header__btn-wrap {
     position: absolute;
     top: -35px; }
@@ -537,10 +564,6 @@ h2 {
   .info__title {
     margin-top: 20px;
     margin-bottom: 25px; }
-  .info__descript {
-    padding-bottom: 20px; }
-  .info__text-top {
-    margin-bottom: 15px; }
   .info__btn {
     margin-top: 20px; }
   .for_who__item {
@@ -613,10 +636,12 @@ h2 {
     width: 100%; }
   .advantages__item {
     padding-right: 5px;
-    padding-left: 50px; }
+    padding-left: 60px; }
   .info__btn {
     padding: 13px 20px;
     font-size: 14px; }
+  .result {
+    background: rgba(191, 246, 245, 0.19); }
   .result__btn {
     padding: 13px 60px; }
   .footer__navbar,

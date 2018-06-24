@@ -12,7 +12,7 @@
     background-color: #fff;
 }
 .header__content{
-  margin-top: 20%;
+  margin-top: 100px;
 }
 
 
@@ -20,7 +20,10 @@
   text-align: center;
 }
 
-
+.faculty,
+.advantages{
+  background: rgba(191, 246, 245, 0.19);
+}
 .faculty__item{
   min-height: 300px;
   width: 80%;
@@ -30,9 +33,25 @@
   padding-right: 15px;
 }
 
+.info__text-top{
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.info__descript{
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+.faculty__title{
+  margin-bottom: 40px;
+}
 
 .for_who__item{
   width: 90%;
+}
+
+.arrow{
+  display: none;
 }
 .coach__wrap{
   margin-top: 40px;
@@ -74,6 +93,9 @@
 .main-header:before {
   height: 130px;
 }
+.header__content{
+  margin-top: 50px;
+}
 .header__btn-wrap{
   position: absolute;
   top: -35px;
@@ -94,12 +116,8 @@
   margin-bottom: 25px;
 }
 
-.info__descript{
-  padding-bottom: 20px;
-}
-.info__text-top{
-  margin-bottom: 15px;
-}
+
+
 .info__btn{
   margin-top: 20px;
 }
@@ -201,12 +219,15 @@ flex-direction: column;
 
 .advantages__item{
   padding-right: 5px;
-  padding-left: 50px;
+  padding-left: 60px;
 }
 
 .info__btn{
   padding: 13px 20px;
   font-size: 14px;
+}
+.result{
+  background: rgba(191, 246, 245, 0.19);
 }
 
 .result__btn{
